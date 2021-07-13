@@ -1,5 +1,7 @@
 # CNN-algorithm-Head-CT-images
 
+Head CT görüntüleri üzerinde CNN algoritmasını python platformunda uygulanmıştır. Veriseti Kaggle üzerinden "Head CT - hemorrhage" başlığı ile bulunan https://www.kaggle.com/felipekitamura/head-ct-hemorrhage linkinden elde edilmiştir.
+
 VERİSETİ:  HEAD CT - HEMORRHAGE 
 
 Kullanılan veri seti, 200 adet .png uzantılı görüntü içermektedir. Bilgisayarlı tomografi kullanarak elde edilmiş insan kafa görüntüleri bulunmaktadır. Bunlardan 0-99 arası görüntüler hasta, 100-199 arası görüntüler sağlıklı insan görüntüleridir. “labels.csv” adlı dokümanda (id , hemorrage) bilgisi bulunmaktadır. Buradaki id, görüntülerin index numaralarını belirtirken; hemorrage ise hasta veya sağlıklı görüntü bilgisi taşıyan 0 ve 1 değerlerinden oluşmaktadır. 0 sayısı sağlıklı; 1 sayısı hasta anlamına karşılık gelmektedir.
